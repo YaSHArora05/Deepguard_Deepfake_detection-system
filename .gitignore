@@ -1,0 +1,21 @@
+﻿@"
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+.env
+.env.local
+
+dataset/
+backend/uploads/
+backend/cache/
+training/cache/
+
+node_modules/
+dist/
+build/
+
+*.pth
+*.pt
+"@ | Out-File -Encoding utf8 .gitignore

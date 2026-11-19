@@ -1,0 +1,8 @@
+run 
+.\venv\Scripts\Activate.ps1
+in backend
+thn 
+uvicorn main:app --reload
+
+for frontend 
+npm run dev
